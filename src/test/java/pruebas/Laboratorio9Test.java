@@ -29,6 +29,8 @@ public class Laboratorio9Test {
 	@AfterSuite
 	public void cerrar() {
 		driver.close();
+		
+		System.out.println("Fin de la Ejecución");
 	}
 	
 }
